@@ -1,0 +1,15 @@
+div {
+  text-align: center;
+  margin: 20px;
+}
+input {
+  border: none;
+  height: 30px;
+  width: 400px;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+input:focus {
+  outline: none;
+}

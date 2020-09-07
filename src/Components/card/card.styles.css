@@ -1,0 +1,21 @@
+.card {
+  background-color: #b8e994;
+  height: 300px;
+  width: 250px;
+  box-shadow: 2px 3px 5px 2px black;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease-in;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.card h1 {
+  text-align: center;
+  margin: 0;
+}
